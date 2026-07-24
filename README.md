@@ -30,9 +30,10 @@ Kho lưu trữ này chỉ cung cấp **mã nguồn gốc** của bản mod. Đ�
    ```bash
    git clone https://github.com/thienwu/Stardew-365.git
    ```
-4. Mở terminal hoặc powershell và chạy lệnh sau để di chuyển vào thư mục mã nguồn và biên dịch:
+4. Mở thư mục mã nguồn vừa tải về bằng **File Explorer** (thư mục chứa file `LongerSeasons.csproj`). 
+   Nhấp chuột vào thanh địa chỉ (Address bar) ở trên cùng của cửa sổ thư mục, gõ `cmd` hoặc `powershell` rồi bấm Enter. 
+   Một cửa sổ gõ lệnh sẽ hiện ra ngay tại đúng thư mục đó. Bạn hãy chạy lệnh:
    ```bash
-   cd Stardew-365
    dotnet build
    ```
 5. Bản mod sau khi build thành công sẽ tạo ra một thư mục mang tên `LongerSeasons` nằm tại đường dẫn: `bin/Debug/net6.0/LongerSeasons`. 
