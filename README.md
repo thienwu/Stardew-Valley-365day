@@ -20,23 +20,22 @@
   * Lịch xuất hiện của NPC Bán Sách (Bookseller) đã được điều chỉnh. Trong Năm Nhuận, ngày Bán Sách ở tháng 3 mùa Xuân sẽ tự động được dời lại 1 ngày để đảm bảo luôn đúng lịch.
   * Bụi quả mọng (Berry bushes) được kéo dài thời gian kết trái tương ứng với độ dài mới của mùa.
 
-## Dành cho người chơi (Cài đặt Mod)
+## Hướng dẫn cài đặt & Biên dịch (Dành cho tất cả)
 
-1. Đảm bảo bạn đã cài đặt [SMAPI](https://smapi.io/).
-2. Tải bản release (đã biên dịch) mới nhất tại mục **[Releases]** của kho lưu trữ này (nếu có).
-3. Giải nén và bỏ thư mục `Stardew-365` vào thư mục `Mods` của Stardew Valley.
-4. (Tuỳ chọn) Bạn có thể điều chỉnh cấu hình trong game thông qua **Generic Mod Config Menu**.
+Kho lưu trữ này chỉ cung cấp **mã nguồn gốc** của bản mod. Để sử dụng, bạn bắt buộc phải tự biên dịch (build) mã nguồn thành bản mod hoàn chỉnh theo các bước sau:
 
-## Dành cho nhà phát triển (Biên dịch mã nguồn)
-
-Kho lưu trữ này chứa **mã nguồn gốc** của bản mod. Nếu bạn muốn tự biên dịch (build):
-1. Yêu cầu cài đặt **.NET 6 SDK** (hoặc mới hơn).
-2. Tải hoặc clone mã nguồn này về máy: `git clone https://github.com/thienwu/Stardew-365.git`
-3. Mở terminal/powershell tại thư mục mã nguồn và chạy lệnh:
+1. Đảm bảo bạn đã cài đặt **[SMAPI](https://smapi.io/)** để chơi mod Stardew Valley.
+2. Cài đặt **.NET 6 SDK** (hoặc mới hơn) trên máy tính của bạn.
+3. Tải mã nguồn này về máy bằng cách bấm nút **Code -> Download ZIP** hoặc dùng lệnh:
+   ```bash
+   git clone https://github.com/thienwu/Stardew-365.git
+   ```
+4. Mở terminal hoặc powershell tại thư mục mã nguồn vừa tải về và chạy lệnh:
    ```bash
    dotnet build
    ```
-4. Bản mod sau khi build thành công sẽ nằm trong thư mục `bin/Debug/net6.0/`. Bạn có thể copy nội dung trong đó thả vào thư mục `Mods` của game.
+5. Bản mod sau khi build thành công sẽ nằm trong đường dẫn: `bin/Debug/net6.0/`. Bạn chỉ cần copy toàn bộ nội dung trong thư mục đó thả vào thư mục `Mods` của game.
+6. (Tuỳ chọn) Bạn có thể điều chỉnh cấu hình trong game thông qua **Generic Mod Config Menu**.
 
 ## Nguồn gốc
 
