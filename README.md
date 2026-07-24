@@ -30,8 +30,9 @@ Kho lưu trữ này chỉ cung cấp **mã nguồn gốc** của bản mod. Đ�
    ```bash
    git clone https://github.com/thienwu/Stardew-365.git
    ```
-4. Mở terminal hoặc powershell tại thư mục mã nguồn vừa tải về và chạy lệnh:
+4. Mở terminal hoặc powershell và chạy lệnh sau để di chuyển vào thư mục mã nguồn và biên dịch:
    ```bash
+   cd Stardew-365
    dotnet build
    ```
 5. Bản mod sau khi build thành công sẽ nằm trong đường dẫn: `bin/Debug/net6.0/`. Bạn chỉ cần copy toàn bộ nội dung trong thư mục đó thả vào thư mục `Mods` của game.
