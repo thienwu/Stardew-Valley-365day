@@ -35,7 +35,8 @@ Kho lưu trữ này chỉ cung cấp **mã nguồn gốc** của bản mod. Đ�
    cd Stardew-365
    dotnet build
    ```
-5. Bản mod sau khi build thành công sẽ nằm trong đường dẫn: `bin/Debug/net6.0/`. Bạn chỉ cần copy toàn bộ nội dung trong thư mục đó thả vào thư mục `Mods` của game.
+5. Bản mod sau khi build thành công sẽ tạo ra một thư mục mang tên `LongerSeasons` nằm tại đường dẫn: `bin/Debug/net6.0/LongerSeasons`. 
+   Bạn hãy copy **nguyên thư mục `LongerSeasons` này** và dán vào thư mục `Mods` của game Stardew Valley (đường dẫn thường gặp trên Windows là: `C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods`).
 6. (Tuỳ chọn) Bạn có thể điều chỉnh cấu hình trong game thông qua **Generic Mod Config Menu**.
 
 ## Nguồn gốc
